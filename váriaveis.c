@@ -6,5 +6,6 @@ int main(){
     double peso = 90.5;
     char letra = 'a';
     char nome[20] = 'ijosey';
+    return 0;
 
 }
