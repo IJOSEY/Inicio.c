@@ -1,6 +1,6 @@
 //conceitos básicos e afins!
 #include <stdio.h>
 int main(){
-    printf("Olá mundo!!");
+    printf("Olá mundo!!\n");
     return 0;
 }
