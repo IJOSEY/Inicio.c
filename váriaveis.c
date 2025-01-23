@@ -4,7 +4,7 @@ int main(){
     int quantidade ;
     float altura ;
     double peso ;
-    char letra ;
+    char letra = 'c' ;
     char nome[20] ;
 
     printf("Digite a sua idade:\n");
@@ -18,9 +18,9 @@ int main(){
 
     printf("Digite seu peso:\n");
     scanf("%f",&peso);
-
+// deixar espaço antes do modificador de valor evitar bug na leitura do dado
     printf("Digite uma letra:\n");
-    scanf("%c",&letra);
+    scanf(" %c",&letra);
 
     printf("Digite o seu nome:\n");
     scanf("%s",&nome);
