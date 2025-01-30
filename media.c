@@ -17,7 +17,8 @@ float main(){
 
     media = (nota1 + nota2) /2;
 
-    printf("Caro aluno %s a sua média é: %2.f\n",nome,media);
-    printf("");
+    printf("Caro aluno %s \n",&nome);
+    printf("A sua média é: %2.f\n",media);
+    
     return 0;
 }

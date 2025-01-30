@@ -25,13 +25,13 @@ int main(){
     printf("Digite o seu nome:\n");
     scanf("%s",&nome);
 
+    printf("O nome é:%s\n",nome);
     printf("A idade é:%d\n",idade);
     printf("A quantidade é:%d\n",quantidade);
     printf("A altura é:%f\n",altura);
     printf("A peso é:%f\n",peso);
     printf("A letra é:%c\n",letra);
-    printf("O nome é:%s\n",nome);
-
+   
 
     return 0;
 
