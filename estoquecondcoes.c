@@ -12,8 +12,8 @@ int main () {
     printf("Valor do estoque: \n");
     scanf("%u",&estoque);
 
-    if (temp <= 30 & temp >= 10 &
-        umidade >= 10 & umidade <=40 &
+    if (temp <= 30 && temp >= 10 &&
+        umidade >= 10 && umidade <=40 &&
         estoque >= 100)
     {
       
