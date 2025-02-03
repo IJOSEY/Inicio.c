@@ -18,7 +18,7 @@ int main () {
     }
      else
     {
-        printf("Você está fora dos requesitos do desconto devido a renda!\n");
+       printf("Você está fora dos requesitos do desconto devido a renda!\n");
     }
     }
     else
