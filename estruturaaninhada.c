@@ -6,8 +6,9 @@ int main(){
      scanf("%d",&numero);
 
      if(numero > 0){
-        if(numero % 2 == 0){
         printf("O númeor é positvo!\n");
+        if(numero % 2 == 0){
+        
         printf("O número e par!\n");
         }else {
             printf("O número é impar!\n");
