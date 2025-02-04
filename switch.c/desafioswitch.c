@@ -78,14 +78,12 @@ int main(){
                  (escolhacomputador == 3) && (escolhajogador == 1))
             {
                 printf("O computador venceu!!\n");
-                printf("A escolha do computador foi: %d\n",escolhacomputador);
-                printf("A escolha do jogador foi: %d\n",escolhajogador);
+                
             }
             else
             {
                 printf("O jogador venceu!!\n");
-                printf("A escolha do computador foi: %d\n",escolhacomputador);
-                printf("A escolha do jogador foi: %d\n",escolhajogador);
+                
             }
              
         }
