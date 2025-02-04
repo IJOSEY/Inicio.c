@@ -23,13 +23,14 @@ int main(){
         printf("3°- TESOURA!\n");
         printf("Escolha: ");
         scanf("%d",&escolhajogador);
-        if (escolhacomputador == escolhajogador)
+        //código com if comentado
+        /*if (escolhacomputador == escolhajogador)
         {
             printf("***EMPATE***");
         }
-        else if (escolhacomputador == 1 && escolhajogador ==2 ||
-                 escolhacomputador == 2 && escolhajogador == 3 ||
-                 escolhacomputador == 3 && escolhajogador == 1)
+        else if ((escolhacomputador) == 1 && (escolhajogador ==2) ||
+                 (escolhacomputador == 2) && (escolhajogador == 3) ||
+                 (escolhacomputador == 3) && (escolhajogador == 1))
         {
             printf("O computador venceu!!\n");
             printf("A escolha do computador foi: %d\n",escolhacomputador);
@@ -41,8 +42,53 @@ int main(){
             printf("A escolha do computador foi: %d\n",escolhacomputador);
             printf("A escolha do jogador foi: %d\n",escolhajogador);
         }
-        
-        
+        */
+        switch (escolhajogador)
+        {
+        case 1:
+            printf("O jogador escolheu PAPEL!!\n");
+            break;
+        case 2:
+            printf("O jogador escolheu PEDRA!!\n");
+            break;
+        case 3:
+            printf("O jogador escolheu TESOURA!!\n");
+            break;    
+        default:
+            printf("Opção invalida!!\n");
+            break;
+        }
+        switch (escolhacomputador)
+        {
+        case 1:
+            printf("O computador escolheu PAPEL!!\n");
+            break;
+        case 2:
+            printf("O computador escolheu PEDRA!!\n");
+            break;
+        case 3:
+            printf("O computador escolheu TESOURA!!\n");
+            break;   
+            if (escolhacomputador == escolhajogador)
+            {
+                printf("#####JOGO EMPATOU!!######\n");
+            }
+            else if ((escolhacomputador) == 1 && (escolhajogador ==2) ||
+                 (escolhacomputador == 2) && (escolhajogador == 3) ||
+                 (escolhacomputador == 3) && (escolhajogador == 1))
+            {
+                printf("O computador venceu!!\n");
+                printf("A escolha do computador foi: %d\n",escolhacomputador);
+                printf("A escolha do jogador foi: %d\n",escolhajogador);
+            }
+            else
+            {
+                printf("O jogador venceu!!\n");
+                printf("A escolha do computador foi: %d\n",escolhacomputador);
+                printf("A escolha do jogador foi: %d\n",escolhajogador);
+            }
+             
+        }
         break;
     case 2:
         printf("Regras de 1 a 10!\n");
